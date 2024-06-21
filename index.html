@@ -55,25 +55,17 @@
 
   <div class="container">
     <header>
-        <h1>Encuesta Sobre el Impacto Académico Ante la Pandemia</h1>
+        <h1>Encuesta Sobre el Impacto Académico Durante la Pandemia</h1>
         <p>Por favor, responde a las siguientes preguntas de manera honesta y completa. Tu opinión es valiosa para comprender mejor cómo la pandemia ha afectado tu experiencia académica.</p>
     </header>
     
     <form class="Encuesta" action="https://formsubmit.co/sebastiancarlin9@gmail.com" method="POST">
        <div class="campo">
-            <label for="apellidos-nombres">Apellidos y Nombres</label>
-            <input type="text" id="apellidos-nombres" name="Apellidos_y_Nombres" required>
-       </div>
-
-       <div class="campo">
-            <label for="codigo-estudiante">Código Estudiante/Docente</label>
-            <input type="text" id="codigo-estudiante" name="Codigo_Estudiante_Docente" required>
-       </div>
-
-       <div class="campo">
             <label for="edad">Edad</label>
             <select id="edad" name="Edad" required>
                 <option value="" selected disabled>Seleccione una opción</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
                 <option value="21">21</option>
                 <option value="22">22</option>
                 <option value="23">23</option>
@@ -94,36 +86,6 @@
                 <option value="38">38</option>
                 <option value="39">39</option>
                 <option value="40">40</option>
-                <option value="41">41</option>
-                <option value="42">42</option>
-                <option value="43">43</option>
-                <option value="44">44</option>
-                <option value="45">45</option>
-                <option value="46">46</option>
-                <option value="47">47</option>
-                <option value="48">48</option>
-                <option value="49">49</option>
-                <option value="50">50</option>
-                <option value="51">51</option>
-                <option value="52">52</option>
-                <option value="53">53</option>
-                <option value="54">54</option>
-                <option value="55">55</option>
-                <option value="56">56</option>
-                <option value="57">57</option>
-                <option value="58">58</option>
-                <option value="59">59</option>
-                <option value="60">60</option>
-                <option value="61">61</option>
-                <option value="62">62</option>
-                <option value="63">63</option>
-                <option value="64">64</option>
-                <option value="65">65</option>
-                <option value="66">66</option>
-                <option value="67">67</option>
-                <option value="68">68</option>
-                <option value="69">69</option>
-                <option value="70">70</option>
             </select>
        </div>
 
@@ -188,6 +150,7 @@
                 <option value="No">No</option>
                 <!-- Otras opciones de dificultades adicionales aquí -->
             </select>
+            <textarea id="Especifica" name="Especifica" rows="2" placeholder="Especifica Las Dificultades"></textarea>
        </div>
 
        <div class="campo">
